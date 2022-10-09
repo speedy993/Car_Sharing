@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #11203E;
+}
+
+.container {
+    margin: 0 auto;
+    width: 930px;
+}
+
+.banner{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_title{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 20px;
+}
+
+.article_title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-family: "Source Sans Pro Semibold";
+    font-weight: bold;
+}
+
+.article_text{
+    margin-bottom: 10px;
+    font-family: "Source Sans Pro Light";
+}
+
+.article_button{
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: #11203E;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    font-size: 17px;
+    background-color: black;
+    font-family: "Source Sans Pro Light";
+    color: gray;
+}
